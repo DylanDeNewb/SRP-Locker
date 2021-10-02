@@ -1,0 +1,30 @@
+# Configuration file for most plugin messages
+
+messages:
+  PREFIX: '&b&lN&3&lC &7'
+  INSUFFICIENT_PERMS: '&7Insufficient permissions to access this command.'
+  INSUFFICIENT_ENTITY: '&7Insufficient entity, player required.'
+  INSUFFICIENT_PLAYER: '&7Insufficient player, please check the name.'
+  INSUFFICIENT_NUMBER: "&Insufficient number, please use a valid number."
+  SOFT_DEPEND_FOUND: '&7Soft-Dependency &6&l% &7found.' # % is Plugin Soft-Dependency
+  SOFT_DEPEND_NOT_FOUND: '&7Soft-Dependency &6&l% &7not found, skipping.' # % is Plugin Soft-Dependency
+  RELOAD: '&7Plugin has been &6&lRELOADED'
+  BLOCK_PLACEMENT: "&7You can &c&lNOT &7build here!"
+  BLOCK_BREAK: "&7You are interacting with a &6&lLOCKER &7block!"
+  BLOCK_CREATE: "&7Locker &a&lCREATED&7"
+  BLOCK_REMOVE: "&7Locker &c&lREMOVED&7"
+  BLOCK_CLAIMED: "&7Locker &6&l% &7is already &c&lCLAIMED&7" # % is Locker Number
+  BLOCK_CLAIMED_NOT: "&7Locker &6&l% &7is &c&lNOT &7claimed!" # % is Locker Number
+  BLOCK_CLAIM_CONFIRM: "&7Please &6&lCONFIRM &7by re-running this command. &c&lCOSTS %" # % is Cost
+  BLOCK_CLAIM_BALANCE: "&7You need &c&l% &7yen to purchase this!" # % is Cost
+  BLOCK_CLAIM: "&7You &a&lCLAIMED&7 Locker &6&l%" # % is Locker Number
+  BLOCK_UNCLAIM_CONFIRM: "&7Please &6&lCONFIRM &7by re-running this command. &c&lCLEARS LOCKER INVENTORY"
+  BLOCK_UNCLAIM: "&7You &c&lUN-CLAIMED&7 Locker &6&l%" # % is Locker Number
+  BLOCK_UNCLAIM_NOT: "&7You can &c&lNOT&7 un-claim this locker"
+  BLOCK_LIMIT: "&7You can only &b&lCLAIM&7 a total of: &6&l1"
+  BLOCK_DUPLICATE: "&7You tried &c&lDUPLICATING &7a &6&lLOCKER &7block!"
+  BLOCK_INVALID: "&7You tried interacting with a &6&lNORMAL &7block!"
+  BLOCK_INVALID_TYPE: "&7You tried making a locker with a &6&lNORMAL &7block!"
+  TOGGLE_ON: "&7You toggled &6&l% &7to &a&lON" # % is Toggleable Type
+  TOGGLE_OFF: "&7You toggled &6&l% &7to &c&lOFF" # % is Toggleable Type
+

@@ -1,0 +1,12 @@
+# Data file for all regen blocks in the plugin.
+#
+# DO NOT TOUCH "blocks"
+
+general:
+  cost: 1000
+sounds:
+  type: BLOCK_CHEST_OPEN
+  category: AMBIENT
+  volume: 1
+  pitch: 1
+blocks:

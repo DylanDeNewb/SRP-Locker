@@ -1,0 +1,7 @@
+name: SRPLocker
+version: ${project.version}
+main: com.roleplayhub.srplocker.SRPLocker
+api-version: 1.13
+authors: [ DylanDeNewb ]
+website: www.roleplayhub.com
+depend: [Vault]
